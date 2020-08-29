@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 411 411" width="411" height="411">
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="55.555" y1="205.566" x2="355.503" y2="205.566">
+			<stop offset="0" stop-color="#c8aef8"  />
+			<stop offset="1" stop-color="#744fe9"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff;stroke: url(#grd1);paint-order:stroke fill markers;stroke-opacity:0.74;stroke-width: 110 } 
+	</style>
+	<g id="Our Brand">
+		<g id="Circle">
+			<path id="Shape 22 copy" class="shp0" d="M355.5,205.57c0,-82.83 -67.15,-149.97 -149.97,-149.97c-82.83,0 -149.97,67.15 -149.97,149.97c0,82.83 67.15,149.97 149.97,149.97c82.83,0 149.97,-67.15 149.97,-149.97z" />
+		</g>
+	</g>
+</svg>

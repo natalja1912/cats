@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test shop</title>
+</head>
+
+<body>
+    <div class="page">
+        <main>
+            <section class="cover">
+                <div class="cover__background"></div>
+                <img class="cover__logo" src="./images/Logo.svg" alt="Логотип">
+                <img class="cover__image" src="./images/girl.svg" alt="Покупатель">
+                <div class="cover__text">
+                    <div class="cover__search">
+                        <form class="cover__form">
+                            <input type="text" class="cover__input" name="cover__input"
+                                placeholder="Search" minlength="2" maxlength="20"
+                                required>
+                        </form>
+                        <select class="cover__select">
+                            <option>Collection</option>
+                            <option>Watches</option>
+                            <option>Bags</option>
+                        </select>
+                    </div>
+                    <h1 class="cover__heading"><span class="cover__heading_type_span">Summer </span>Collection</h1>
+                    <p class="cover__subheading"><span class="cover__subheading_type_span">25% </span>off</p>
+                    <button class="cover__details-button">Details &rarr;</button>
+                </div>
+            </section>
+            <section class="bags">
+                <h2 class='bags__heading'>Trendy Arrivals</h2>
+                <section class="cards">
+                    <template class="card__template">
+                        <div class="card">
+                            <div class="card__info">
+                                <p class="card__likes"></p>
+                                <p class="card__messages"></p>
+                            </div>
+                            <img class="card__image" src="./images/Logo.svg" alt="Фото сумки">
+                            <p class="card__title">bag description</p>
+                            <p class="card__price">price</p>
+                            <button class="card__add-button" type="button">Add to Cart</button>
+                        </div>
+                    </template>
+                </section>
+            </section>
+            <section class="brands">
+                <div class='brands__text'>
+                    <h2 class='brands__heading'>Our brands</h2>
+                    <p class='brands__subheading'>Small shoes 2017 new arrivals mini messenger <span
+                            class="brands__subheading_type_span">classic shoes</span>
+                    </p>
+                    <p class='brands__paragraph'>Lorem ipsum dolor sit amet, qui blanditiis praesentium voluptatum
+                        deleniti atque corrupti, quos dolores et quas molestias excepturi sint, quae ab illo inventore
+                        veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,
+                        quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores. Lorem
+                        ipsum dolor sit amet, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos
+                        dolores et quas molestias excepturi sint, quae ab illo inventore veritatis et quasi architecto
+                        beatae vitae dicta sunt, explicabo.</p>
+                </div>
+                <img class="brands__image" src="./images/iPhone 7 Plus Silver.png" alt="Мобильный телефон">
+            </section>
+            <section class="watches">
+                <h2 class='watches__heading' id="brands">our showcase</h2>
+                <ul class="watches__nav">
+                    <li class="watches__nav-item">Fashion</li>
+                    <li class="watches__nav-item">Furniture</li>
+                    <li class="watches__nav-item watches__nav-item-watches watches__nav-item_type_active">Watches</li>
+                    <li class="watches__nav-item">Mobile</li>
+                    <li class="watches__nav-item">Cloth</li>
+                    <li class="watches__nav-item">Toys</li>
+                </ul>
+                <section class="cards watches__cards">
+                </section>
+            </section>
+            <section class="news">
+                <h2 class='news__heading'>Newsletter</h2>
+                <form class='news__form'>
+                    <input type="email" class="news__input" name="news__input"
+                                placeholder="Enter your email address..." minlength="5" maxlength="20"
+                                required>
+                    <button class='news__button'>Submit</button>
+                </form>
+            </section>
+            <section class="nav">
+                <h2 class='nav__heading'>big shop</h2>
+                <nav class="nav__list">
+                    <a class="nav__link" href="#brands">Man</a>
+                    <a class="nav__link" href="#brands">Woman</a>
+                    <a class="nav__link" href="#brands">Kids</a>
+                    <a class="nav__link" href="#brands">Bags</a>
+                    <a class="nav__link" href="#brands">Watches</a>
+                    <a class="nav__link" href="#brands">Toys</a>
+                </nav>
+                <nav class="nav__social">
+                    <a class="nav__social-icon nav__social-icon_type_fb" href="https://www.facebook.com/" target="blank"></a>
+                    <a class="nav__social-icon nav__social-icon_type_goggle" href="https://www.google.com/" target="blank"></a>
+                    <a class="nav__social-icon nav__social-icon_type_insta" href="https://www.instagram.com/" target="blank"></a>
+                    <a class="nav__social-icon nav__social-icon_type_twitter" href="https://about.twitter.com/ru.html" target="blank"></a>
+                </nav>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__copyright">&copy; Copyright&nbsp;2017 big shop by victor themes</p>
+        </footer>
+    </div>
+</body>
+</html>

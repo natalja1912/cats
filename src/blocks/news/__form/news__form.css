@@ -1,0 +1,19 @@
+.news__form{
+    width: 55%;
+    height: 71px;
+    padding-left: 10px;
+    padding-right: 3px;
+    margin: auto;
+    border-radius: 35px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 760px) {
+    .news__form{
+        width: 80%;
+        height: 40px;
+    }
+}

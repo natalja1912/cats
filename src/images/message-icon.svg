@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 21" width="25" height="21">
+	<defs>
+		<image width="25" height="21" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAVBAMAAABBBVgrAAAAAXNSR0IB2cksfwAAADBQTFRFcdzscdzsAAAAcdzscdzscdzscdzscdzscdzscdzscdzscdzscdzscdzscdzscdzsAdRj7AAAABB0Uk5Tv/8AgGAwQCCf348Qz+9QcN9vP6cAAACYSURBVHicVY49CgIxEEYnN8hYBBGLkCiCjT+xsfYIXkBdyAFc8GLewMYj2HsS883Mwvp1j7zHhBzLfGqL5Eg2UJIdjJa1rqruQi4yZ7aY3KKUPC3Y0UuXg7TRi9mFBzLQmugcdsjiYHboQE15wrxJx+iaOQGdmtLD3IPS3wWjXq8Lzd9X/ZkQf/BWtkZfDZVmaUyvMW3uRj/XviwTU8IC7QAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Terndy Bags">
+		<g id="Bags">
+			<g id="05">
+				<g id="Msg">
+					<use id="Vector Smart Object" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

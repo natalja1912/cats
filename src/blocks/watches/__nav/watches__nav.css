@@ -1,0 +1,20 @@
+.watches__nav{
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    width: 80%;
+    height: 66px;
+    border-radius: 33px;
+    box-shadow: 2.5px 4.33px 50px rgba(239,239,240,0.75);
+    background-color: rgba(255,255,255,0);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media screen and (max-width: 760px) {
+    .watches__nav{
+        width: 90%;
+        height: 130px;
+    }
+}

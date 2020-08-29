@@ -1,0 +1,36 @@
+@import url(./__image/card__image.css);
+@import url(./__title/card__title.css);
+@import url(./__price/card__price.css);
+@import url(./__add-button/card__add-button.css);
+@import url(./__info/card__info.css);
+@import url(./__likes/card__likes.css);
+@import url(./__messages/card__messages.css);
+@import url(./__display-none/card__display-none.css);
+
+
+.card{
+    width: 351px;
+    height: 452px;
+    background-color: #ffffff;
+    overflow: visible;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: appear 2s;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.card:hover{
+    box-shadow: 2.5px 4.33px 50px rgba(221,223,224,0.75);
+    transition: box-shadow 1s;
+}
+

@@ -1,0 +1,31 @@
+.cover__image{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 58px;
+    max-width: 75%;
+    height: 994px;
+    object-fit: cover;
+    object-position: left;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1550px) {
+    .cover__image{
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .cover__image{
+        height: 100%;
+        top: 0;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .cover__image{
+        display: none;
+    }
+}
