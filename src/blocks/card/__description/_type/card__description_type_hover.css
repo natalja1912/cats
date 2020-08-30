@@ -1,0 +1,13 @@
+.card__description_type_hover{
+    color: #E62E7A;
+    animation: appear 2s;
+}
+
+@keyframes appear{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

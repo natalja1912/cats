@@ -1,23 +1,5 @@
 @font-face {
-    font-family: "Open Sans";
-    src: url('./fonts/OpenSans-Bold.ttf');
-    font-weight: bold;
-  }
-
-  @font-face {
-    font-family: "Roboto";
-    src: url('./fonts/Roboto-Bold.ttf');
-    font-weight: bold;
-  }
-
-  @font-face {
-    font-family: "Roboto";
-    src: url('./fonts/Roboto-Medium.ttf');
-    font-weight: 500;
-  }
-
-  @font-face {
-    font-family: "Montserrat";
-    src: url('./fonts/Montserrat-Light.ttf');
-    font-weight: 300;
+    font-family: "Trebuchet MS";
+    src: url('./fonts/Exo2.0-Thin.otf');
+    font-weight: normal;
   }

@@ -1,0 +1,12 @@
+.card__span{
+    color: #2EA8E6;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+.card__span:hover{
+    opacity: 0.7;
+    transition: opacity 0.6s;
+}

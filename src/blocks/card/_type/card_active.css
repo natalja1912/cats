@@ -1,0 +1,7 @@
+.card_active{
+    border: 4px solid #D91667;
+}
+
+.card_active::before{
+    border: none;
+}

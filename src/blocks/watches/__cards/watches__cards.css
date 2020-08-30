@@ -1,9 +1,0 @@
-.watches__cards{
-    margin-top: 84px;
-}
-
-@media screen and (max-width: 1550px) {
-    .watches__cards{
-        margin-top: 20px;
-    }
-}

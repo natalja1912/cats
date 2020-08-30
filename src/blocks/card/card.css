@@ -1,36 +1,55 @@
-@import url(./__image/card__image.css);
-@import url(./__title/card__title.css);
-@import url(./__price/card__price.css);
-@import url(./__add-button/card__add-button.css);
-@import url(./__info/card__info.css);
-@import url(./__likes/card__likes.css);
-@import url(./__messages/card__messages.css);
-@import url(./__display-none/card__display-none.css);
+@import url(./__description/card__description.css);
+@import url(./__description/_type/card__description_type_hover.css);
+@import url(./__heading/card__heading.css);
+@import url(./__subheading/card__subheading.css);
+@import url(./__text/card__text.css);
+@import url(./__action/card__action.css);
+@import url(./__action/_type/card__action_type_disabled.css);
+@import url(./__span/card__span.css);
+@import url(./__size/card__size.css);
+@import url(./__size/_type/card__size_type_active.css);
+@import url(./__size/_type/card__size_type_disabled.css);
+@import url(./__size-digits/card__size-digits.css);
+@import url(./__size-text/card__size-text.css);
 
 
 .card{
-    width: 351px;
-    height: 452px;
-    background-color: #ffffff;
-    overflow: visible;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    animation: appear 2s;
+    width: 320px;
+    height: 480px;
+    border: 4px solid #2EA8E6;
+    border-radius: 12px;
+    box-sizing: border-box;
+    overflow: visible;
+    padding-left: 51px;
+    background: url('../../images/cat.png') -24px 208px no-repeat border-box;
+    background-size: 368px 368px;
+    background-color: #F2F2F2;
 }
 
-@keyframes appear {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+.card::after{
+    content: '';
+    width: 45.45px;
+    height: 45.45px;
+    border-top-left-radius: 9px;
+    box-sizing: content-box;	
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top left,#F2F2F2 50%,#000000 50%);
+    z-index: 1;
 }
 
-.card:hover{
-    box-shadow: 2.5px 4.33px 50px rgba(221,223,224,0.75);
-    transition: box-shadow 1s;
+.card::before{
+    content: '';
+    width: 67px;
+    height: 67px;	
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    border-left: 4px solid #2EA8E6;
+    transform: rotate(45deg) translate(17px);
+    z-index: 2;
 }
 
