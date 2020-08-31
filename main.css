@@ -2,8 +2,8 @@
 .header__heading{padding:0;margin:36px 0 24px;text-align:center;font-family:Trebuchet MS,Arial,Helvetica,sans-serif;font-style:normal;font-weight:400;font-size:36px;line-height:1.2;color:#fff;text-shadow:0 1px 1px #000}
 
 .cards{width:87.5%;margin:auto auto 100px;display:grid;grid-template-columns:repeat(auto-fill,320px);grid-gap:80px 80px;justify-content:center;align-content:center;justify-items:center}
-.card__description{padding:0;margin:21px 0 0;font-family:Trebuchet MS,Arial,Helvetica,sans-serif;font-style:normal;font-weight:400;font-size:16px;line-height:1;color:#666}
-.card__description_type_hover{color:#e62e7a;-webkit-animation:appear 2s;animation:appear 2s}@-webkit-keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes appear{0%{opacity:0}to{opacity:1}}
+.card__description{padding:0;margin:21px 0 0;font-family:Trebuchet MS,Arial,Helvetica,sans-serif;font-style:normal;font-weight:400;font-size:16px;line-height:1;color:#666;-webkit-animation:move 1.5s;animation:move 1.5s}@-webkit-keyframes move{0%{opacity:0}to{opacity:1}}@keyframes move{0%{opacity:0}to{opacity:1}}
+.card__description_type_hover{color:#e62e7a;-webkit-animation:appear 1.5s;animation:appear 1.5s}@-webkit-keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes appear{0%{opacity:0}to{opacity:1}}
 .card__heading{margin:0;padding:0;font-family:Trebuchet MS,Arial,Helvetica,sans-serif;font-style:normal;font-weight:700;font-size:48px;line-height:1.2;color:#000}
 .card__subheading{margin:0;padding:0;font-family:Trebuchet MS,Arial,Helvetica,sans-serif;font-style:normal;font-weight:700;font-size:24px;line-height:1.2;color:#000}
 .card__text{padding:0;margin:15px 0 0;font-family:Trebuchet MS,Arial,Helvetica,sans-serif;font-style:normal;font-weight:400;font-size:14px;line-height:.98;color:#666}
@@ -18,4 +18,4 @@
 .card{position:relative;width:320px;height:480px;border:4px solid #2ea8e6;border-radius:12px;box-sizing:border-box;overflow:visible;padding-left:51px;background:url(5a59a8dfb85bee52c6a8a3fca3e76a2b.png) -24px 208px no-repeat border-box;background-size:368px 368px;background-color:#f2f2f2}.card:after{width:45.45px;height:45.45px;border-top-left-radius:9px;box-sizing:content-box;background:linear-gradient(to top left,#f2f2f2 50%,#000 0);z-index:1}.card:after,.card:before{content:"";position:absolute;top:0;left:0}.card:before{width:67px;height:67px;background:transparent;border-left:4px solid #2ea8e6;transform:rotate(45deg) translate(17px);z-index:2}
 .card_active{border:4px solid #d91667}.card_active:before{border:none}
 .card_disabled{border:4px solid #b3b3b3}.card_disabled:before{border:none;width:100%;height:100%;background:#f2f2f2;opacity:.5;transform:rotate(0deg) translate(0)}
-.page,body{margin:0;padding:0}body{background:#000}
+.page,body{margin:0;padding:0}body{background:#000;background-image:url(d6f07f8ed5f5049a96ce12a4c0d91e7f.png)}
