@@ -3,9 +3,8 @@
     width: 87.5%;
     margin: auto;
     margin-bottom: 100px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 320px);
-    grid-gap: 80px 80px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     justify-items: center;
